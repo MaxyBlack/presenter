@@ -1,6 +1,7 @@
 {
   "name": "maxyblack/presenter",
   "description": "Simple view presenters",
+  "version": "0.0.3",
   "keywords": [
     "presenter",
     "view",
