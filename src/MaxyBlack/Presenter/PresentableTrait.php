@@ -34,6 +34,10 @@ trait PresentableTrait
             return $this->presenterInstance->{$method}();
         }
 
+        if ($method instanceof Closure) {
+            call_user_func($method, $this);
+        }
+
         return $this->presenterInstance;
     }
 
