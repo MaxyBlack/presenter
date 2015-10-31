@@ -1,0 +1,25 @@
+{
+  "name": "maxyblack/presenter",
+  "description": "Simple view presenters",
+  "keywords": [
+    "presenter",
+    "view",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MaxyBlack",
+      "email": "maxymilian.black@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "illuminate/support": "~5.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MaxyBlack\\Presenter": "src/"
+    }
+  }
+}
